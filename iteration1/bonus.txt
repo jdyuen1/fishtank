@@ -1,0 +1,6 @@
+Attempt at having gracefully turning for the animal. 
+Incremental rotation instead of instantaneous
+Noticeable problem is the jittering due to the 
+lack of precision in the addition/subtraction. 
+The program adds/subtracts to 2 decimal places
+but path.heading() can have from 6 to 8 decimal places.
